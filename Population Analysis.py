@@ -114,7 +114,7 @@ print('conc')
 print(conc)
 '''
 
-'''
+
 #第一个图，40个个体的浓度-时间曲线
 fig_rows = 5
 fig_cols = 8
@@ -185,7 +185,7 @@ plt.show()
 #而应该是beta的值
 #这样才能进一步用beta、covariates和b来计算phi
 #有了phi之后，再用phi去计算y的值
-
+'''
 要做：
 将原来模型中的phi拆开，用beta，covaiates和b来表示，
 再将这个展开后的大式子作为模型来fit，如此可得到beta和b的值，
